@@ -119,7 +119,7 @@ nav .menu a {
 
 /* About Section Design  */
 
-#about {
+#about, .skills, .resume {
   padding-top: 123px;
 }
 
@@ -141,10 +141,6 @@ nav .menu a {
   font-size: 20px;
   line-height: 30px;
   color: #757575;
-}
-
-.skills {
-  padding-top: 130px;
 }
 
 .skills-container {
@@ -181,4 +177,43 @@ box-shadow: 0 6px 50px 0 #00000018;
   color: #757575;
   line-height: 28px;
   font-size: 16;
+}
+
+.resume-container{
+width: 71%;
+max-width: 1140px;
+margin: 113px auto 0;
+display: flex;
+gap: 24px;
+}
+
+.section-tittle{
+color: #474747;
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+.resume-card{
+max-width: 511px;
+margin-right: 71px;
+}
+
+.resume-card h3 {
+margin-bottom: 10px;
+margin-top: 25px;
+color: #474747;
+font-size: 20px;
+}
+
+.resume-card .pera{
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: 600;
+}
+
+.resume-card p{
+color: #757575;
+line-height: 28px;
+font-size: 16px;
+margin-bottom: 30px;
 }
