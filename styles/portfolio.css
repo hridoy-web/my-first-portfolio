@@ -217,3 +217,51 @@ line-height: 28px;
 font-size: 16px;
 margin-bottom: 30px;
 }
+
+.text-center{
+  text-align: center;
+}
+
+
+footer{
+margin-top: 113px;
+padding: 130px 0;
+background-color: #FFF8F3;
+}
+
+.footer-container{
+display: flex;
+margin: 0 auto;
+width: 71%;
+max-width: 1140px;
+gap: 117px;
+}
+
+.footer-container h2{
+color: #181818;
+font-size: 30px;
+margin-bottom: 20px;
+}
+
+.social p{
+  max-width: 562px;
+color: #474747;
+font-size: 16px;
+line-height: 28px;
+margin-bottom: 30px;
+}
+
+.icon a{
+margin-right: 24px;
+}
+
+input[type=text] , textarea{
+width: 461px;
+padding: 18px 31px;
+margin-bottom: 24px;
+border: none;
+border-radius: 5px;
+color: #757575;
+font-size: 16px;
+line-height: 28px;
+}
